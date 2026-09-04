@@ -63,6 +63,6 @@ function handleOtpLogin(e) {
 function getLoginData() {
   let phone = localStorage.getItem("phone");
   let otp = localStorage.getItem("otp");
-  alert('Use OTP for testing '+otp);
+  // alert('Use OTP for testing '+otp);
   $("#phone").html(phone);
 }
