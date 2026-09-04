@@ -1386,10 +1386,10 @@ body {
 
 }
 .category_bottom p {
-    display: -webkit-box;
+    /* display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .rating_wrap {
@@ -6454,6 +6454,9 @@ padding-bottom: 8vh;
 
         font-size: 10px;
     }
+     .product_data{
+        padding: 6px 18px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -6685,6 +6688,7 @@ padding-bottom: 8vh;
         height: 130px;
         width: 95px;
     }
+   
 
     .pharmacy_crausel_img img {
         border-radius: 10px;
