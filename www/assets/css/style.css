@@ -1340,7 +1340,7 @@ body {
 .product_design_sec_wrap {
     font-family: var(--font3);
     padding: 2px 18px !important;
-    padding-right: 11px !important;
+    /* padding-right: 11px !important; */
     /* margin-bottom: 4rem; */
 
 }
