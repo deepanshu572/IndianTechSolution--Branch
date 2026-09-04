@@ -1245,6 +1245,7 @@ body {
 .banner_image img{
     height: 110px;
     width: 82px;
+    border-radius: 10px;
 }
 .sub_item img {
     width: 100%;
@@ -3030,6 +3031,9 @@ body {
 .banner_image_kids img {
     /* width: 125px; */
     width: 30vw;
+    border-radius: 25px;
+    height: 120px;
+    object-fit: cover;
 }
 
 .banner_kids_more_banner {
@@ -6680,8 +6684,9 @@ padding-bottom: 8vh;
     }
 
     .main_category_item .category_img {
-        /* width: 103px; */
+        width: 103px;
         height: 61px;
+        flex-shrink: 0;
     }
 
     .category_store_wrap_beauty .category_store_item {
