@@ -5800,6 +5800,8 @@ padding-bottom: 8vh;
 .main_category_item .category_img {
     width: 126px;
     height: 75px;
+    border-radius: 10px;
+  overflow: hidden;
 }
 /* .cateogy_box_new_design>h6 {
     font-size: 12px;
