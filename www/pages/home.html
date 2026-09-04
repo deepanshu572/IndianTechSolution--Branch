@@ -540,6 +540,23 @@ function deleteText() {
     }
 }
 
+function getFooterImg(){
+  $.ajax({
+    url: apiUrl,
+    method: "POST",
+    dataType: "JSON",
+    data: {
+      type: "getFooterImg",
+    },
+    success: function (response) {
+      if (response != null && response != 'error') {
+       let data = response.data;
+       console.log(data);
+    } 
+  }
+  })
+}
+getFooterImg();
 
 
 

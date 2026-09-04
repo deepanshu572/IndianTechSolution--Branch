@@ -2957,6 +2957,7 @@ body {
     border-radius: 5px;
     height: 86px;
     /* width:120px; */
+    overflow: hidden;
 }
 .brand_pharmacy img {
     width: 100%;
@@ -6463,6 +6464,9 @@ padding-bottom: 8vh;
      .product_data{
         padding: 6px 18px;
     }
+     .main_category_item{
+        gap: 5px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -6689,6 +6693,9 @@ padding-bottom: 8vh;
         width: 103px;
         height: 61px;
         flex-shrink: 0;
+    }
+    .main_category_item{
+        gap: 5px;
     }
 
     .category_store_wrap_beauty .category_store_item {
