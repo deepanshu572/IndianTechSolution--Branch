@@ -6469,6 +6469,12 @@ padding-bottom: 8vh;
      .main_category_item{
         gap: 5px;
     }
+    .category_icons>button>div>img {
+    width: 35px;
+    mix-blend-mode: multiply;
+    height: 35px;
+    object-fit: contain;
+}
 }
 
 @media screen and (max-width: 376px) {
