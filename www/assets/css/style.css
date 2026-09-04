@@ -920,9 +920,9 @@ body {
 }
 
 .category_icons>button>div>img {
-    width: 40px;
+    width: 35px;
     mix-blend-mode: multiply;
-    height: 40px;
+    height: 35px;
     object-fit: contain;
 }
 
