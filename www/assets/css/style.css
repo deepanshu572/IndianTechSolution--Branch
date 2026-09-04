@@ -6475,6 +6475,9 @@ padding-bottom: 8vh;
     height: 30px;
     object-fit: contain;
 }
+.category_name {
+    font-size: 9px;
+}
 }
 
 @media screen and (max-width: 376px) {
