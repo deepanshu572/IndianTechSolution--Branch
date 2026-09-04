@@ -4476,6 +4476,29 @@ function filterDataAsPerCondition(type, value) {
   }
 }
 
+
+function getFooterImg(){
+  console.log("getFooterImg called");
+  //   categoryId = localStorage.getItem("currentCategoryId");
+
+  // return $.ajax({
+  //   url: apiUrl,
+  //   method: "POST",
+  //   dataType: "JSON",
+  //   data: {
+  //     type: "getFooterImg",
+  //     categoryId
+  //   },
+  //   success: function (response) {
+  //     if (response != null && response != 'error') {
+  //      let data = response.data;
+  //      console.log(data);
+  //   } 
+  // }
+  // })
+}
+
+
 async function initGrocery() {
   showLoader();
   try {
@@ -4494,7 +4517,8 @@ async function initGrocery() {
       getGroceryBanner3(),
       getNewFindPrd(),
       getRecentOrder(),
-      getBestSellingPrd()
+      getBestSellingPrd(),
+      getFooterImg()
     ]);
 
   } catch (error) {
@@ -4519,7 +4543,9 @@ async function initBeauty() {
       getBeautyCategoryStore5(),
       getBeautyBanner1(),
       getBeautyBanner2(),
-      getBeautyBanner3()
+      getBeautyBanner3(),
+      getFooterImg()
+
     ]);
   } catch (error) {
     console.error("Grocery loading error:", error);
@@ -4544,7 +4570,8 @@ async function initFashion() {
       getFashionBanner2(),
       getFashionBanner3(),
       getSubcategoryWithProduct(),
-      getTopHeroBanner()
+      getTopHeroBanner(),
+            getFooterImg()
     ]);
   } catch (error) {
     console.error("Grocery loading error:", error);
@@ -4573,7 +4600,9 @@ async function initElectric() {
       getElectricityBanner1(),
       getElectricityBanner2(),
       getElectricityBanner3(),
-      getElictricityProducts()
+      getElictricityProducts(),
+            getFooterImg()
+
     ]);
   } catch (error) {
     console.error("Grocery loading error:", error);
@@ -4602,7 +4631,9 @@ async function initPharmacy() {
       getCategoryPharmacy3(),
       getCategoryPharmacy4(),
       getCategoryPharmacy5(),
-      getAllbrands("")
+      getAllbrands(""),
+            getFooterImg()
+
     ]);
   } catch (error) {
     console.error("Grocery loading error:", error);
@@ -4630,7 +4661,8 @@ async function init99Store() {
       get99storeBanner2(),
       get99storeBanner3(),
       get99storeProducts(),
-      getNewFind99store()
+      getNewFind99store(),
+            getFooterImg()
     ]);
   } catch (error) {
     console.error("Grocery loading error:", error);
@@ -4658,7 +4690,8 @@ async function initKids() {
 
       getKidsBanner1(),
       getKidsBanner2(),
-      getKidsBanner3()
+      getKidsBanner3(),
+      getFooterImg()
     ]);
   } catch (error) {
     console.error("Grocery loading error:", error);
